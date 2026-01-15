@@ -1,2 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IDE and editor files
+.idea/
+
+# Jupyter Notebook files and checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Machine learning model files
+*.h5
+*.pth
+*.onnx
+*.ckpt
+
+# Linux-specific files
+*.swp
+*.tmp
+
+# Other common ignores
+.DS_Store
+*.log
+.env
+.env.*
+*.pckl
+scan_reports/
 *.gdb_history
 *core*

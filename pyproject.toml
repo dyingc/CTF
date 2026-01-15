@@ -1,0 +1,16 @@
+[project]
+name = "ctf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "angr>=9.2.193",
+    "ipdb>=0.13.13",
+    "ipython>=9.9.0",
+    "jinja2>=3.1.6",
+    "pwntools>=4.15.0",
+    "r2pipe>=1.9.6",
+    "ropper>=1.13.13",
+    "unicorn>=2.1.2",
+]
